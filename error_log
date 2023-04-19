@@ -1,0 +1,11 @@
+[05-Mar-2023 16:29:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/maazsite/public_html/seminar/booking.php on line 8
+[05-Mar-2023 17:06:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/maazsite/public_html/seminar/booking.php on line 50
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  cal_days_in_month() expects parameter 2 to be int, string given in /home/maazsite/public_html/seminar/index.php on line 189
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/maazsite/public_html/seminar/index.php on line 198
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  mktime() expects parameter 4 to be int, string given in /home/maazsite/public_html/seminar/index.php on line 228
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  mktime() expects parameter 4 to be int, string given in /home/maazsite/public_html/seminar/index.php on line 228
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  mktime() expects parameter 4 to be int, string given in /home/maazsite/public_html/seminar/index.php on line 228
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  mktime() expects parameter 4 to be int, string given in /home/maazsite/public_html/seminar/index.php on line 228
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  mktime() expects parameter 4 to be int, string given in /home/maazsite/public_html/seminar/index.php on line 228
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  mktime() expects parameter 4 to be int, string given in /home/maazsite/public_html/seminar/index.php on line 228
+[07-Mar-2023 11:31:16 UTC] PHP Warning:  mktime() expects parameter 4 to be int, string given in /home/maazsite/public_html/seminar/index.php on line 228

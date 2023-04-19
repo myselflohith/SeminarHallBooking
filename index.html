@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seminar Hall Booking System</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+	<h1>Seminar Hall Booking System</h1>
+	<form action="booking.php" method="post">
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date" required><br><br>
+		
+		<label for="start_time">Start Time:</label>
+		<input type="time" id="start_time" name="start_time" required><br><br>
+		
+		<label for="end_time">End Time:</label>
+		<input type="time" id="end_time" name="end_time" required><br><br>
+		
+		<label for="event_details">Event Details:</label>
+		<textarea id="event_details" name="event_details" required></textarea><br><br>
+		
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required><br><br>
+		
+		<input type="submit" value="Book">
+	</form>
+	<div class="calendar"></div>
+	
+
+</div>
+</body>
+</html>

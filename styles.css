@@ -1,0 +1,146 @@
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+	width: 100%;
+	max-height: 200px; 
+  }
+  
+
+h1 {
+	font-size: 32px;
+	margin-top: 0;
+	text-align: center;
+	color: #333;
+}
+
+form {
+	/* display: flex; */
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	color: white;
+}
+
+form label {
+	flex-basis: 100%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="time"],
+form input[type="password"] {
+	width: 97%;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+form input[type="submit"] {
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.error {
+	color: red;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.success {
+	color: green;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.calendar {
+	margin-top: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	text-align: center;
+	background-color: #eee;
+}
+
+td {
+	height: 100px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
+td.booked {
+	background-color: red;
+	color: white;
+}
+
+/* Styles for screens up to 600px wide */
+@media (max-width: 600px) {
+	/* Adjust font sizes and element widths */
+	body {
+	  font-size: 14px;
+	}
+	.container {
+	  width: 90%;
+	}
+	/* Hide some elements that don't fit on small screens */
+	.booked-by {
+	  display: none;
+	}
+  }
+  
+  /* Styles for screens 600px and wider */
+  @media (min-width: 600px) {
+	/* Adjust font sizes and element widths */
+	body {
+	  font-size: 16px;
+	}
+	.container {
+	  width: 80%;
+	}
+	/* Show some elements that were hidden on small screens */
+	.booked-by {
+	  display: block;
+	}
+  }
+  
+
